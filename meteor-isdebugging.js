@@ -1,3 +1,7 @@
+/* global __meteor_runtime_config__ */
+
+import { Meteor } from 'meteor/meteor'
+
 if (!Meteor._isDebugging) {
   if (Meteor.isServer) {
     Meteor.startup(() => {
